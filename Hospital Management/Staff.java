@@ -10,7 +10,7 @@ class Staff {
         this.name = name;
         this.role = role;
         this.contactInfo = contactInfo;
-        this.attendance = 0;  // Initial attendance is zero
+        this.attendance = 0;  // Initial attendance is 0
     }
 
     // Getters

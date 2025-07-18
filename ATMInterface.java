@@ -3,7 +3,7 @@
 class ATMInterface {
     Scanner sc = new Scanner(System.in);
     Random random = new Random();
-    float balance = random.nextFloat() * 10000000.0f;  // Generates a random float balance between 0 and 10,000,000
+    float balance = random.nextFloat() * 10000000.0f;  // Generates a random float balance between 0 and 1,00,00,000
     int Pin = 1234;  // Default pin number
 
     void menu() {
